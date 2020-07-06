@@ -35,7 +35,7 @@ Aplicação desenvolvida com Spring (Boot, MVC, Data JPA e Security), Thymeleaf,
     spring.datasource.password=${rds.password}
     </b>
 
-8) O próximo passo será a criação de um profile no arquivo pom.xml com as seguintes informações:
+8) O próximo passo será a criação de um profile no arquivo pom.xml com as seguintes informações:<br>
     a) Obtenha o profile no repositório.
 
 9) O próximo passo será criação do arquivo .jar através do comando mvn clean package spring-boot:repackage;
